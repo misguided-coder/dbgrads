@@ -9,6 +9,8 @@ public class FurnitureFactory {
 			return new Chair();
 		} else if (type == 'A') {
 			return new Almirah();
+		} else if (type == 'B') {
+			return new Bed();
 		}
 		return null;
 	}
