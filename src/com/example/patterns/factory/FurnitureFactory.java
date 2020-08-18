@@ -10,7 +10,7 @@ public class FurnitureFactory {
 		} else if (type == 'A') {
 			return new Almirah();
 		} else if (type == 'B') {
-			return new Bed();
+			return new Bench();
 		}
 		return null;
 	}
